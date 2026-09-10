@@ -103047,7 +103047,7 @@ $3$color$height(a,b,c){return this.$5$color$height$ls$weight(a,b,c,0,B.t)},
 $3$ls$weight(a,b,c){return this.$5$color$height$ls$weight(a,null,1.4,b,c)},
 $S:628}
 A.xa.prototype={
-H(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h="2026-09-10T17:03:40Z",g=A.u9(a,!0,t.MU),f=g.c,e=f?B.i5:B.ic,d=t.t_
+H(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h="2026-09-10T17:10:55Z",g=A.u9(a,!0,t.MU),f=g.c,e=f?B.i5:B.ic,d=t.t_
 d=f?A.b([B.ax,B.i5],d):A.b([B.Jt,B.ic],d)
 s=A.bg(i,B.ri,B.l,i,i,new A.b7(i,i,i,A.bb(12),A.b([new A.br(0,B.N,B.D.bU(0.35),B.dq,12)],t.V),B.mH,B.A),i,42,i,i,i,i,42)
 r=A.ar("JurisQuiz",i,i,i,A.bR(i,i,f?B.j:B.ax,i,i,i,i,i,i,i,i,22,i,i,B.bu,i,i,!0,i,-0.5,i,i,i,i,i,i),i,i)
@@ -103070,7 +103070,7 @@ o=j.SZ("Explore by Category",B.rd,f)
 n=j.adV(a,g)
 l=f?B.dh:B.bs
 m=A.ar("Allied Group",i,i,i,A.bR(i,i,l,i,i,i,i,i,i,i,i,12,i,i,B.bt,i,i,!0,i,i,i,i,i,i,i,i),i,i)
-k=B.c.n(h,"T")?"v1.0.0 (11) \xb7 ab8acfe \xb7 "+B.b.gP(h.split("T")):"v1.0.0 (11) \xb7 ab8acfe"
+k=B.c.n(h,"T")?"v1.0.0 (12) \xb7 20b2c17 \xb7 "+B.b.gP(h.split("T")):"v1.0.0 (12) \xb7 20b2c17"
 return A.ia(i,i,A.aSm(A.b([new A.H4(new A.Dx(d,B.Qt,i),0,e,120,!0,!0,i),new A.q1(A.dM(A.bg(i,A.bT(A.b([B.ed,s,B.jS,r,B.nR,p,B.jS,o,B.nR,n,B.YD,A.dM(A.bT(A.b([m,B.ee,A.ar(k,i,i,i,A.bR(i,i,l,i,i,i,i,i,i,i,i,11,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i)],q),B.q,B.m,B.p),i,i),B.cu],q),B.a3,B.m,B.p),B.l,i,B.p5,i,i,i,i,B.Li,i,i,i),i,i),i)],q)),i,i)},
 SZ(a,b,c){var s=null,r=B.D.bU(0.15),q=A.bb(8)
 q=A.bg(s,A.hm(b,B.D,s,16),B.l,s,s,new A.b7(r,s,s,q,s,s,B.A),s,s,s,B.qH,s,s,s)
