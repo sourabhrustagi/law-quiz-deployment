@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <title>JurisQuiz — All India Bar Examination (AIBE) Preparation</title>
+  <meta name="description" content="Prepare for the All India Bar Examination (AIBE) with JurisQuiz: full-length mock tests, topic-wise practice across 40 subjects, timed speed runs and previous years' question papers — mapped to current law including the Bharatiya Nyaya Sanhita, Nagarik Suraksha Sanhita and Sakshya Adhiniyam, 2023. Created by Allied Group.">
+  <meta name="keywords" content="AIBE, All India Bar Examination, bar exam preparation, AIBE mock test, AIBE previous year papers, law quiz, Bar Council of India exam, Allied Group">
+  <meta name="author" content="Allied Group">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jurisquiz.app/">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="JurisQuiz">
+  <meta property="og:title" content="JurisQuiz — All India Bar Examination (AIBE) Preparation">
+  <meta property="og:description" content="Full-length AIBE mock tests, topic-wise practice and previous years' papers, mapped to the current law. Created by Allied Group.">
+  <meta property="og:url" content="https://jurisquiz.app/">
+  <meta property="og:image" content="https://jurisquiz.app/icons/Icon-512.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="JurisQuiz — AIBE Preparation">
+  <meta name="twitter:description" content="Mock tests, topic practice and past papers for the All India Bar Examination.">
+  <meta name="twitter:image" content="https://jurisquiz.app/icons/Icon-512.png">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalApplication",
+    "name": "JurisQuiz",
+    "applicationCategory": "EducationApplication",
+    "operatingSystem": "Web, Android, iOS",
+    "description": "All India Bar Examination (AIBE) preparation — mock tests, topic-wise practice and previous years' question papers.",
+    "url": "https://jurisquiz.app/",
+    "publisher": { "@type": "Organization", "name": "Allied Group" },
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" }
+  }
+  </script>
+
+  <!-- iOS / PWA -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="JurisQuiz">
+  <meta name="theme-color" content="#FFFFFF">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Warm up the connections the app opens on boot -->
+  <link rel="preconnect" href="https://zglcfxeaotnlrqgyjcdv.supabase.co" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://firebaseinstallations.googleapis.com">
+
+  <style>
+    /* First-paint splash so users see the brand, not a white screen,
+       during the Flutter engine boot. Removed once Flutter renders. */
+    #boot {
+      position: fixed; inset: 0; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 18px;
+      background: #FBFAF8; color: #1A2233;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      transition: opacity .3s ease; z-index: 2147483647;
+    }
+    #boot .name { font-size: 22px; font-weight: 600; letter-spacing: .5px; }
+    #boot .sub  { font-size: 13px; color: #6B7688; }
+    #boot .ring {
+      width: 34px; height: 34px; border-radius: 50%;
+      border: 3px solid rgba(0,0,0,.10); border-top-color: #C08A2E;
+      animation: spin 900ms linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { #boot .ring { animation: none; } }
+  </style>
+</head>
+<body>
+  <div id="boot">
+    <div class="ring"></div>
+    <div class="name">JurisQuiz</div>
+    <div class="sub">All India Bar Examination preparation</div>
+  </div>
+
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var b = document.getElementById('boot');
+      if (!b) return;
+      b.style.opacity = '0';
+      setTimeout(function () { b.remove(); }, 320);
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
