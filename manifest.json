@@ -1,0 +1,37 @@
+{
+    "name": "JurisQuiz — AIBE Preparation",
+    "short_name": "JurisQuiz",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FBFAF8",
+    "theme_color": "#FFFFFF",
+    "description": "All India Bar Examination (AIBE) preparation: mock tests, topic-wise practice and previous years' question papers, mapped to current law. Created by Allied Group.",
+    "orientation": "any",
+    "categories": ["education"],
+    "lang": "en",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
